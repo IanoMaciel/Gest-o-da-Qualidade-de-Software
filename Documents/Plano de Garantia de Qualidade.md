@@ -31,7 +31,7 @@ Com isso, o objetivo desse plano, será monitorar e garantir a conformidade na e
 | [Documentação Roadmap](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Roadmap.md) | 21/09/2021 |
 | [Documentação de Visão](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/documento_visao.md) | 12/10/2021	|
 ## 1.3. Visão Geral
-Com relação a organização deste documento, além tópico indrodutória, será apresentado o tópico 2 onde trata os Objetivos da Qualidade, em seguida o tópico 3 onde aborda as métricas Métricas, no tópico 4 mostra a Resolução de Problemas e Ação Corretiva, o tópico 5 elucida o Monitoramento de Resultados e, por fim, a tópico 6 onde aborda Validação dos Resultados.
+Com relação a organização deste documento, além tópico indrodutória, será apresentado o tópico 2 onde trata os Objetivos da Qualidade, em seguida o tópico 3 onde aborda as Métricas, no tópico 4 mostra a Resolução de Problemas e Ação Corretiva, o tópico 5 elucida o Monitoramento de Resultados e, por fim, a tópico 6 onde aborda Validação dos Resultados.
 
 # 2. Objetivo da Qualidade 
 Os objetivos de qualidades do projeto Autizando estão especificados no [Documento de Visão: Seção 3. Requisitos](https://github.com/IanoMaciel/Autizando/blob/main/docs/wiki/documento_visao.md#3-requisitos). Nele estão específicado os requisitos funcionais e não funcionais 
