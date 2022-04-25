@@ -14,7 +14,6 @@
     - [Cronograma](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#41-cronograma)
     - [Ações corretivas](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#42-a%C3%A7%C3%B5es-corretivas)
 5. [Monitoramento de Resultados](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#5-monitoramento-de-resultados)
-6. [Validação dos resultados](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#6-valida%C3%A7%C3%A3o-dos-resultados)
 
 # 1. Introdução
 O Plano de Garantia de Qualidade é a definição do escopo de atividades e métricas que irão ser aplicadas no projeto. Esse artefato fornece uma visão clara de como a qualidade do produto, do artefato e do processo será garantida. Ele contém o Plano de Revisão e Auditoria e faz referência a uma série de outros artefatos desenvolvidos durante a fase de Iniciação. Ele é mantido no decorrer do projeto.
@@ -110,9 +109,7 @@ A ação corretiva para cada grau esta definida ana tabela abaixo:
 
 # 5. Monitoramento de Resultados
 A forma de monitoramento que será aplicada no projeto afim de atestar a aderência dos produtos de trabalho ao processo, será feito através de auditorias previamente programadas sendo baseadas no documento de Checklist, que prevê os parâmetros que devem ser atingidos em cada estágio do processo de desenvolvimento
-# 6. Validação dos Resultados
-Os resultados e informações recolhidos através das auditorias de qualidade estão aprovados e validados pelo Gerente de Qualidade e Gerente de Projeto através do Documento de Aprovação da Garantia da Qualidade.
-Este documento deve ter sua versão atualizada a cada marco de auditoria realizada.
+
 
 
 
