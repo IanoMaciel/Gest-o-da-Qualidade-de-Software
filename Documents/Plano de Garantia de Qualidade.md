@@ -19,18 +19,21 @@
 6. Validação dos resultados
 
 # 1. Introdução
-Esse artefato fornece uma visão clara de como a qualidade do produto, do artefato e do processo será garantida. Ele contém o Plano de Revisão e Auditoria e faz referência a uma série de outros artefatos desenvolvidos durante a fase de Iniciação. Ele é mantido no decorrer do projeto.
+O Plano de Garantia de Qualidade é a definição do escopo de atividades e métricas que irão ser aplicadas no projeto. Esse artefato fornece uma visão clara de como a qualidade do produto, do artefato e do processo será garantida. Ele contém o Plano de Revisão e Auditoria e faz referência a uma série de outros artefatos desenvolvidos durante a fase de Iniciação. Ele é mantido no decorrer do projeto.
 ## 1.1. Objetivo
-O Plano de Garantia de Qualidade é a definição do escopo de atividades e métricas que irão ser aplicadas no projeto. Com isso, o objetivo desse plano, será monitorar e garantir a conformidade na execução dos processos e dos produtos gerados no decorrer do desenvolvimento.
-## 1.2. Escopo
+Com isso, o objetivo desse plano, será monitorar e garantir a conformidade na execução dos processos e dos produtos gerados no decorrer do desenvolvimento.
 
-## 1.3. Definições, Acrônimos e Abreviações
-## 1.4. Referências
+## 1.2. Referências
 | Documentação  |  Data  |
 | ------------------- | ------------------- 
 | [Plano de Gerenciamento de Riscos](https://github.com/IanoMaciel/Autizando/blob/main/docs/wiki/Documento-de-gerencia-de-riscos.md) | 11/09/2021 |
+| [Backlog do produto](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Backlog-do-Produto.md)| 10/09/2021 |
+| [Documentação de arquitetura](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Documento_arquitetura.md)| 11/09/2021 |
+| [Documentação de metodologia ](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Metodologia.md) | 14/09/2021 |
+| [Documentação Roadmap](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Roadmap.md) | 21/09/2021 |
+| [Documentação de Visão](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/documento_visao.md) | 12/10/2021	|
 ## 1.5. Visão Geral
-Com relação a organização deste documento, além desta seção indrodutória, será apresentado os 2. Objetivos da Qualidade, 3. Gerenciamento, 4. Documentação, 5. Padrões e Diretrizes, 6. Métricas, 7. Plano de Revisão e Auditória, 8. Avaliação e Teste 9. Resolução de Problemas e Ação Corretiva, 10. Ferramentas, Técnicas e Medotologias, 11. Gerenciamento de Configuração, 12. Registro de Qualidade, 13. Treinamento e, por fim, a seção 14 onde trata o Gerenciamento de Riscos.
+Com relação a organização deste documento, além desta seção indrodutória, será apresentado o tópico 2 onde tatra os Objetivos da Qualidade, em seguida o tópico 3 onde aborda as métricas Métricas, no tópico 4 mostra a Resolução de Problemas e Ação Corretiva, o tópico 5 elucida o Monitoramento de Resultados e, por fim, a tópico 6 onde aborda Validação dos Resultados.
 
 # 2. Objetivo da Qualidade 
 Os objetivos de qualidades do projeto Autizando estão especificados no [Documento de Visão: Seção 3. Requisitos](https://github.com/IanoMaciel/Autizando/blob/main/docs/wiki/documento_visao.md#3-requisitos). Nele estão específicado os requisitos funcionais e não funcionais 
@@ -39,7 +42,7 @@ Os objetivos de qualidades do projeto Autizando estão especificados no [Documen
 | Indicador  |  Índice de cumprimento do cronograma  |
 | ------------------- | ------------------- |
 |  Objetivo |  O objetivo desse indicador é verificar o desempenho do processo de qualidade quanto ao cumprimento do cronograma. |
-|  Coleta | Os dados devem ser coletados através do cronograma do processo. As datas iniciais e finais planejadas serão analisadas con relação a execução. Para medir utiliza-se a forumula x = a - b. x = Índice de cumprimento do cronograma, a = Atividades em dia; b = Atividades executadas ou entregues fora do prazo |
+|  Coleta | Os dados devem ser coletados através do cronograma do processo. As datas iniciais e finais planejadas serão analisadas com relação a execução. Para medir utiliza-se a Fórmula x = a - b. x = Índice de cumprimento do cronograma, a = Atividades em dia; b = Atividades executadas ou entregues fora do prazo |
 | Análise | Quantos mais próximo de 0, x estiver, mais eficaz o processo no que diz respeito ao comprimento do planejamento. x = 0-4 Baixo, x = 0-6 Médio e x > 10 = Alto|
 
 | Indicador  |  Resolução de não conformidades  |
@@ -55,65 +58,41 @@ Os processos e produtos de trabalho serão avaliados objetivamente nas datas pre
 
  As não conformidades encontradas serão relatadas, e classificadas de acordo com a severidade em Alta, Média e Baixa. O procedimento de relato e classificação das não conformidades envolve a criação de um relatório único para não conformidade e a divulgação do mesmo. Toda não conformidade será registrada, para controle do status da não conformidade, o Registro de Não Conformidades poderá ser consultado, o mesmo será atualizado conforme o andamento do tratamento da Não Conformidade.
 
-As ações corretivas estão definidas para resolução das não conformidades na seção 4.2 deste plano conforme sua criticidade.Em caso de estouro no prazo estabelecido para resolução da não conformidade a mesma será reescalonada, mudando então sua criticidade.
+As ações corretivas estão definidas para resolução das não conformidades na seção 4.2 deste plano conforme sua criticidade. Em caso de estouro no prazo estabelecido para resolução da não conformidade a mesma será reescalonada, mudando então sua criticidade.
 
 ## 4.1. Cronograma
 As datas para verificar a aderência dos processos executados às descrições de processo, padrões e procedimentos foram definidas junto a Gerência de Projeto e estão descritas abaixo no seguinte formato mm/dd/aa (mês/ano/dia):
 
 | Checklist  |  Task  |  Date  |
 | ------------------- | ------------------- | ------------------- |
-| Gerência de Projeto | O escopo do projeto foi definido? O ciclo de vida do projeto foi definido? | data |
-| | O esforço, custo,  e recurso para o projeto foi estimado? | |
-| | Os riscos do projeto são gerenciados? Os dados do projeto são gerenciados? | |
-| | Um plano geral pro projeto foi definido? |
-| | O processo é monitorado? | |
-| | O envolvimento dos interessados foi planejado? | |
-| | A execução do projeto foi verificada? | |
-| Gerência de Requisitos | Os requisitos foram identificados e entendidos? | |
-| | Os requisitos foram validados? | |
-| | A rastreabilidade entre os requisitos foi estabelecida? | |
-| | As mudanças foram controladas? | |
-| Verificação e Validação | A verificação e validação é gerenciada? | |
-| | Os requisitos são verificados e validados? | |
-| | A arquitetura é verificada e validada? | |
-| | A impelementação é verificada e validada? |  |
-| | A manutenção é verificada e validada? | |
-| Gerência de Configuração | Os itens de configuração foram identificados?  | |
-| | As mudanças são controladas? | | 
-| | O estado da configuração é controlado? | Auditorias são realizadas? | |
-| Manutenção | Um plano de manutenção foi definido? | |
-| | As solicitações de mudança são gerenciadas? | | 
-| | A implementação das modificações são gerenciadas? | | 
-| | É analisado o impacto das mudanças aprovadas? | | 
-| | Os defeitos são classificados? | | 
-| | A manutenção é revisada e aprovada? | | 
-| | O processo é medido? | | 
-| | O processo é monitorado? | |
+| Gerência de Projeto | O escopo do projeto foi definido? O ciclo de vida do projeto foi definido? | 11/09/2021 |
+| | Os riscos do projeto são gerenciados? Os dados do projeto são gerenciados? | 14/09/2021 |
+| | Um plano geral pro projeto foi definido? | 12/10/2021 |
+| | O envolvimento dos interessados foi planejado? | 14/09/2021 |
+| | A execução do projeto foi verificada? | 14/09/2021 |
+| Gerência de Requisitos | Os requisitos foram identificados e entendidos? | 11/09/2021 |
+| Gerência de Configuração | Os itens de configuração foram identificados? | 11/09/2021 | 
+| | As mudanças são controladas? | 11/09/2021 | 
+| | O estado da configuração é controlado? | 11/09/2021 |
+| | Auditorias são realizadas? | 11/09/2021 |
 
 As datas para verificar a aderência dos produtos de trabalho aos padrões, procedimentos e requisitos aplicáveis foram definidas junto a Gerência de Projeto. As datas das avaliações respeitam as fases do projeto especificada na EAP do Projeto, as datas das avaliações estão descritas abaixo no seguinte formato mm/dd/aa (mês/ano/dia):
 
 | Fases | Checlist dos Produtos de Trabalhado | Data |
 |---|---|---|
-| Análise | Plano de Estimativas | | 
-| | Plano de Riscos | |
-| | Cronograma | |
-| | Plano de Envolvimento | |
-| | EOR | |
+| Análise | Plano de Estimativas | 14/09/2021 | 
+| | Plano de Riscos | 14/09/2021 |
+| | Cronograma | 14/09/2021 |
+| | Plano de Envolvimento | 14/09/2021 |
 | Projeto | Plano geral do projeto | |
-| | Documento de arquitetura | |
+| | Documento de arquitetura | 10/09/2021 |
 | | Plano de Gerência de Configuração | |
 | | Plano de Verificação e validação | |
-| | Plano de  Manunteção | |
-| Código fontes | Sprint 1 | |
-| | Sprint 2 | |
-| | PMBOCK | |
-| Protótipos |  Sprint 1 | |
-| | Sprint 2 | |
-| | PMBOCK | |
-| Casos de Teste |  Sprint 1 | |
-| | Sprint 2 | |
-| | PMBOCK | |
-| Teste | Relatório de verificação e Validação | |
+| Código fontes | Sprint 1 | 16/08/21 e 23/08/2021 |
+| | Sprint 2 | 30/08/2021 à 06/09/2022 |
+| Protótipos |  Sprint 1 | 30/08/202 à 06/09/2022 |
+| | Sprint 2 |  06/09/202 à 13/09/2022 |
+
 
 ## 4.2. Ações corretivas
 As ações corretivas para resolução das não conformidades são baseadas na criticidade da não conformidade definidos em:
