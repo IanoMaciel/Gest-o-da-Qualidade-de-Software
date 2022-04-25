@@ -4,19 +4,17 @@
 |  1.0 |  22/04/2022 | Criação do plano de garantia de qualidade | @IanoMaciel |
 
 # Sumário
-1. Introdução
-    - 1.1 Objetio
-    - 1.2 Escopo
-    - 1.3 Definições, Acrônimos e Abreviações
-    - 1.4 Referências	
-    - 1.5 Visão Geral
-2. Objetivos da Qualidade
-3. Métricas
-4. Resolução de Problemas e Ação Corretiva
-    - 4.1. Cronograma
-    - 4.2. Ações corretivas
-5. Monitoramento de Resultados
-6. Validação dos resultados
+1. [Introdução](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#1-introdu%C3%A7%C3%A3o)
+    - [Objetivo](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#11-objetivo)
+    - [Referências](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#12-refer%C3%AAncias)
+    - [Visão Geral](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#15-vis%C3%A3o-geral)
+2. [Objetivos da Qualidade](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#2-objetivo-da-qualidade)
+3. [Métricas](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#3-m%C3%A9tricas)
+4. [Resolução de Problemas e Ação Corretiva](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#4-resolu%C3%A7%C3%A3o-de-problemas-e-a%C3%A7%C3%A3o-corretiva)
+    - [Cronograma](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#41-cronograma)
+    - [Ações corretivas](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#42-a%C3%A7%C3%B5es-corretivas)
+5. [Monitoramento de Resultados](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#5-monitoramento-de-resultados)
+6. [Validação dos resultados](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Plano%20de%20Garantia%20de%20Qualidade.md#6-valida%C3%A7%C3%A3o-dos-resultados)
 
 # 1. Introdução
 O Plano de Garantia de Qualidade é a definição do escopo de atividades e métricas que irão ser aplicadas no projeto. Esse artefato fornece uma visão clara de como a qualidade do produto, do artefato e do processo será garantida. Ele contém o Plano de Revisão e Auditoria e faz referência a uma série de outros artefatos desenvolvidos durante a fase de Iniciação. Ele é mantido no decorrer do projeto.
@@ -32,7 +30,7 @@ Com isso, o objetivo desse plano, será monitorar e garantir a conformidade na e
 | [Documentação de metodologia ](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Metodologia.md) | 14/09/2021 |
 | [Documentação Roadmap](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/Roadmap.md) | 21/09/2021 |
 | [Documentação de Visão](https://github.com/IanoMaciel/Software-Quality-Management/blob/main/Documents/Autizando/wiki/documento_visao.md) | 12/10/2021	|
-## 1.5. Visão Geral
+## 1.3. Visão Geral
 Com relação a organização deste documento, além desta seção indrodutória, será apresentado o tópico 2 onde tatra os Objetivos da Qualidade, em seguida o tópico 3 onde aborda as métricas Métricas, no tópico 4 mostra a Resolução de Problemas e Ação Corretiva, o tópico 5 elucida o Monitoramento de Resultados e, por fim, a tópico 6 onde aborda Validação dos Resultados.
 
 # 2. Objetivo da Qualidade 
@@ -107,7 +105,7 @@ A ação corretiva para cada grau esta definida ana tabela abaixo:
 | Criticidade da Não Conformidade | Descrição da Ação Corretiva | 
 |---|---|
 | Baixa | Implementação de uma solução rápida. |
-| Média | O gerente responsável deve se reunir com a equipe e orientar os responsáveis pela execução para concluir a a¬tividade.Ajustes no cronograma serão feitos pelo gerente de projeto caso necessário. |
+| Média | O gerente responsável deve se reunir com a equipe e orientar os responsáveis pela execução para concluir a atividade. Ajustes no cronograma serão feitos pelo gerente de projeto caso necessário. |
 | Alta | O gerente responsável deve replanejar a atividade, reajustando junto ao gerente de projeto o prazo para conclusão da mesma. |
 
 # 5. Monitoramento de Resultados
